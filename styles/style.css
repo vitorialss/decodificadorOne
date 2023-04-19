@@ -1,0 +1,110 @@
+@import "global.css";
+
+body {
+  background-color: var(--yellow);
+  padding: 2.5rem;
+  width: 1000px;
+  height: 1024px;
+  display: flex;
+  position: relative;
+}
+.logo {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+textarea {
+  position: absolute;
+  background-color: var(--yellow);
+  border: none;
+  top: 168px;
+  font-size: 32px;
+  left: 180px;
+  resize: none;
+  outline: none;
+  overflow: auto;
+  color: var(--dark-blue);
+  width: 680px;
+  height: 288px;
+  spellche
+}
+aside {
+  background-color: var(--light-green);
+  border-radius: 32px;
+  width: 400px;
+  height: 944px;
+  position: absolute;
+  left: 1000px;
+  top: 40px;
+  box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  padding: 32px;
+  justify-content: center;
+}
+.figure {
+  margin-bottom: 32px;
+}
+
+.texts {
+  display: flex;
+  flex-direction: column;
+  gap: 16px; 
+ text-align : center;
+}
+h2 {
+  font-weight: 700;
+  font-size: 24px;
+
+}
+
+.buttons_area {
+  position: absolute;
+  left: 180px;
+  top: 851px;
+}
+
+.notice {
+  display: flex;
+  gap: 8px;
+  color: #495057;
+  font-size: 12px;
+}
+
+.buttons {
+  margin-top: 16px;
+  display: flex;
+  gap: 24px;
+}
+
+button {
+  border-radius: 24px;
+  padding: 24px;
+  width: 328px;
+  height: 67px;
+  border: 1px solid #0a3871;
+  font-size: 16px;
+}
+
+#encrypt_button {
+  background-color: var(--dark-blue);
+  color: #ffffff;
+}
+#encrypt_button:hover {
+ background-color: #072b61;
+}
+
+#decrypt_button {
+  background-color: #d8dfe8;
+  color: var(--dark-blue);
+}
+
+#decrypt_button:hover {
+  background-color: #ffffff;
+}
+#copy_button {
+  display: none;
+  position: absolute;
+  left: 1032px;
+  top: 885px;
+}
