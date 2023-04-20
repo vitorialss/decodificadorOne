@@ -14,19 +14,25 @@ body {
   left: 40px;
 }
 textarea {
-  position: absolute;
-  background-color: var(--yellow);
   border: none;
-  top: 168px;
   font-size: 32px;
-  left: 180px;
   resize: none;
+  color: var(--dark-blue);
   outline: none;
   overflow: auto;
-  color: var(--dark-blue);
+}
+
+.output-text{
+  background-color: var(--light-green);
+  
+}
+.input-text {
+  position: absolute;
+  background-color: var(--yellow);
+  top: 168px;
+  left: 180px;
   width: 680px;
   height: 288px;
-  spellche
 }
 aside {
   background-color: var(--light-green);
@@ -52,6 +58,7 @@ aside {
   gap: 16px; 
  text-align : center;
 }
+
 h2 {
   font-weight: 700;
   font-size: 24px;
@@ -95,7 +102,7 @@ button {
 }
 
 #decrypt_button {
-  background-color: #d8dfe8;
+  background-color: var(--light-green);
   color: var(--dark-blue);
 }
 
@@ -104,7 +111,7 @@ button {
 }
 #copy_button {
   display: none;
-  position: absolute;
-  left: 1032px;
-  top: 885px;
+  position: relative;
+
+  
 }
